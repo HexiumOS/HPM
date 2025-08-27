@@ -1,7 +1,9 @@
 [package]
-name = "HPM"
+name = "hpm"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+reqwest = "0.12.23"
 sap = "0.0.5"
+tokio = "1.47.1"
